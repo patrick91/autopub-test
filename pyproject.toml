@@ -1,0 +1,10 @@
+[project]
+name = "autopub-test"
+version = "0.24.3"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.autopub]
+plugins = ["autopub.plugins.github", "autopub.plugins.uv"]
