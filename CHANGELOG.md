@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.24.4 - 2025-01-16
+-------------------
+
+This is a test release for testing autopub
+
 0.24.3 - 2025-01-16
 -------------------
 
