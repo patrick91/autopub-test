@@ -10,6 +10,9 @@ dependencies = []
 plugins = ["autopub.plugins.github", "autopub.plugins.uv"]
 
 [tool.autopub.config.github]
+include_sponsors = false
+create_discussions = true
+discussion_category = "Announcements"
 comment_template_success = """
 Thanks for adding the `RELEASE.md` file!
 
