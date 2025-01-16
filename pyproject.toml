@@ -9,7 +9,7 @@ dependencies = []
 [tool.autopub]
 plugins = ["autopub.plugins.github", "autopub.plugins.uv"]
 
-[tool.autopub.config.github]
+[tool.autopub.plugin_config.github]
 include_sponsors = false
 create_discussions = true
 discussion_category = "Announcements"
